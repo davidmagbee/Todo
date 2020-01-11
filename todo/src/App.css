@@ -1,0 +1,59 @@
+.input-box {
+  border: 1px solid black;
+  height: 40px;
+  width: 550px;
+  font-size: 25px;
+}
+
+.input-form {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.task-box {
+  width: 80%;
+  margin: 4vw auto;
+}
+.task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 1em;
+  font-weight: bold;
+}
+
+.task > p {
+  margin: 0px 0px 0px 1em;
+}
+
+.task-main {
+  width: 100%;
+  padding: 2vw;
+  color: black;
+  font-size: large;
+  border-radius: 25px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-icons > i {
+  margin-left: 1em;
+}
+
+.submit-box {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  margin-left: 1vw;
+  border: 3px solid white;
+  padding: 5px 10px 5px 10px;
+}
+
+.mark-off {
+  text-decoration: line-through;
+}
