@@ -19,7 +19,7 @@ function ToDoList(props) {
         )
     })
 
-    return <div>{children}</div>
+    return <div className="todo-list">{children}</div>
 }
 
 export default ToDoList
